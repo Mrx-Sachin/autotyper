@@ -6,13 +6,13 @@
 
 Before using `autotyper.sh`, you need to install the `xdotool` utility. On Debian and Ubuntu-based systems, you can use the following command:
 
-'''sudo apt-get install xdotool'''
+```sudo apt-get install xdotool```
 
 
 
 On Red Hat-based systems, you can use the following command:
 
-'''sudo yum install xdotool'''
+```sudo yum install xdotool```
 
 
 
