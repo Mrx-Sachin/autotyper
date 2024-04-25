@@ -8,6 +8,9 @@ Before using `autotyper.sh`, you need to install the `xdotool` utility. On Debia
 
 ```
 sudo apt-get install xdotool
+sudo apt-get install tesseract-ocr
+sudo apt-get install scrot
+sudo apt-get install xclip
 ```
 
 
