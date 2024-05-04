@@ -25,3 +25,6 @@ while read -r line; do
         xdotool key Return
     fi
 done < "$input_file"
+
+last_line=$(tail -n 1 "$input_file")
+xdotool type "$last_line"
