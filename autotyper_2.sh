@@ -21,6 +21,7 @@ sleep 5
 while read -r line; do
     if [ -n "$line" ]; then
         xdotool type "$line"
+        xdotool type " "
         xdotool key Return
     fi
 done < "$input_file"
